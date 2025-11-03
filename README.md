@@ -1,16 +1,12 @@
-# 🛰️ Satellite Image Processing for Water Body Monitoring
+# Satellite Image Processing for Water Body Monitoring
 
-**Author:** Juan
-
-**Course:** Image Processing
-
-## 🌟 Project Overview
+## Project Overview
 
 This project focuses on the study, analysis, and application of Image Processing (IP) techniques to perform the segmentation and monitoring of water bodies using multispectral satellite imagery.
 
 The main objective is to develop a methodology in Python that effectively differentiates water areas from other land cover classes using spectral indices and thresholding. [cite_start]The final segmentation result will be rigorously validated using the **Dice Metric**[cite: 30].
 
-## 📁 Repository Structure
+## Repository Structure
 
 The repository is organized into two primary folders, reflecting the project's data collection and processing phases:
 
@@ -21,7 +17,7 @@ The repository is organized into two primary folders, reflecting the project's d
 | `Raw_TIFF_Images/` | *Not included in GitHub, but the data source.* | 20 Sentinel-2 satellite images (Bands B3 and B8) exported from GEE. |
 | `Final_Report.pdf` | (To be added later) | [cite_start]The complete report adhering to all course requirements[cite: 10]. |
 
-## 🛠️ Methodology and Technologies
+## Methodology and Technologies
 
 ### 1. Data Acquisition (GEE)
 
