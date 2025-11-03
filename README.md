@@ -36,9 +36,9 @@ The repository is organized into two primary folders, reflecting the project's d
 | **Segmentation** | **Thresholding** (e.g., Otsu's Method). | [cite_start]Converts the NDWI into a binary image (0 = No Water, 1 = Water), resulting in the **Obtained Segmentation**[cite: 31]. |
 | **Validation** | **Dice Metric** (Dice Similarity Coefficient). | Compares the **Obtained Segmentation** with the **Ground Truth** (water mask from MapBiomas) to measure accuracy. [cite_start]A Dice value closer to 1 (100%) indicates a better result[cite: 32]. |
 
-## ⚙️ Requirements and Execution
+## Requirements and Execution
 
-[cite_start]To run the project locally (after exporting the images from GEE), the following Python libraries are required[cite: 28]:
+To run the project locally (after exporting the images from GEE), the following Python libraries are required[cite: 28]:
 
 * `ee` (Google Earth Engine)
 * `geemap`
